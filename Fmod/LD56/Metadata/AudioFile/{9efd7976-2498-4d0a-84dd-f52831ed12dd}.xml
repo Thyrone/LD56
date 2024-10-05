@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{9efd7976-2498-4d0a-84dd-f52831ed12dd}">
+		<property name="assetPath">
+			<value>Shakira - Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup™ Song).mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>210.78204081632654</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ef54e3d5-6475-467f-b037-b27b506859cf}</destination>
+		</relationship>
+	</object>
+</objects>
