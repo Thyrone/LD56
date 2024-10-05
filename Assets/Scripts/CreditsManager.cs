@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CreditsManager : MonoBehaviour
 {
@@ -18,6 +20,11 @@ public class CreditsManager : MonoBehaviour
 
     private IEnumerator ShowCredits()
     {
+        // Starting loading main scene:
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
+        // But doesn't activate it yet:
+        asyncLoad.allowSceneActivation = false;
+
         // Wait:
         yield return new WaitForSeconds(1f);
 
@@ -96,5 +103,8 @@ public class CreditsManager : MonoBehaviour
         }
         _credits.color = new Color(1f, 1f, 1f, 0f);
         _name.color = new Color(1f, 1f, 1f, 0f);
+
+        // SceneManager.LoadSceneAsync(0, LoadSceneMode.Single);
+        asyncLoad.allowSceneActivation = true;
     }
 }

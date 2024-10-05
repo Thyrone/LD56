@@ -2,5 +2,14 @@
 tags:
 position: 0,0
 ---
-Yoo moi c'est la souris, me touche pas sinon je t'éclate!
+Dialogue: Yoo moi Dialogue, c'est moi qui parle pour les autres UIs.
+<<jump Next>>
+===
+
+
+title: Next
+tags:
+position: 300,0
+---
+Lampe: Maintenant c'est moi qui parle haha!
 ===
