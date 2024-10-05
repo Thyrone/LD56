@@ -11,8 +11,11 @@ public class DialogFollow : MonoBehaviour
 
     private RectTransform _rect;
 
+    private static DialogFollow _instance;
+
     private void Start()
     {
+        _instance = this;
         TryGetComponent<RectTransform>(out _rect);
     }
 
@@ -21,9 +24,6 @@ public class DialogFollow : MonoBehaviour
     {
         if (_target == null || _cam == null)
             return;
-
-        //then you calculate the position of the UI element
-        //0,0 for the canvas is at the center of the screen, whereas WorldToViewPortPoint treats the lower left corner as 0,0. Because of this, you need to subtract the height / width of the canvas * 0.5 to get the correct position.
 
         Vector2 ViewportPosition = _cam.WorldToViewportPoint(_target.transform.position);
 
@@ -35,5 +35,11 @@ public class DialogFollow : MonoBehaviour
 
         //now you can set the position of the ui element
         _rect.anchoredPosition = WorldObject_ScreenPosition;
+    }
+
+    public static void SetTarget(GameObject target)
+    {
+        if (_instance)
+            _instance._target = target;
     }
 }
