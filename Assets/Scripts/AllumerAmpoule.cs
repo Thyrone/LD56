@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class AllumerAmpoule : MonoBehaviour
 {
-    public Sprite eteint;
-    public Sprite allume;
+    public Material eteint;
+    public Material allume;
+    public GameObject child;
 
     private void Start() 
     {
-        gameObject.GetComponent<SpriteRenderer>().sprite = eteint;
+        child.GetComponent<MeshRenderer>().material = eteint;
     }
     public void Allumer()
     {
-        gameObject.GetComponent<SpriteRenderer>().sprite = allume;
+        child.GetComponent<MeshRenderer>().material = allume;
     }
 }
