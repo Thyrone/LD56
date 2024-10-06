@@ -517,6 +517,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _awakeDuration: 5
+  eventAwake:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &266335829
 Transform:
   m_ObjectHideFlags: 0
@@ -1039,7 +1042,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!234 &981129559
 SliderJoint2D:
   m_ObjectHideFlags: 0
@@ -1422,6 +1425,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4896656669622235148, guid: 8fbef27c11fb6ac46873f01430e47c2a, type: 3}
+      propertyPath: _canvas
+      value: 
+      objectReference: {fileID: 4694080900666521329}
+    - target: {fileID: 5089339644658605872, guid: 8fbef27c11fb6ac46873f01430e47c2a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5256926059450588667, guid: 8fbef27c11fb6ac46873f01430e47c2a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1
@@ -1465,6 +1476,10 @@ PrefabInstance:
     - target: {fileID: 5427864350795869006, guid: 8fbef27c11fb6ac46873f01430e47c2a, type: 3}
       propertyPath: m_Name
       value: Cursor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427864350795869006, guid: 8fbef27c11fb6ac46873f01430e47c2a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1572,6 +1587,10 @@ PrefabInstance:
     - target: {fileID: 396484472720653466, guid: f4ef6cbcf37480c4b9e8b90bccdc0a1c, type: 3}
       propertyPath: m_Name
       value: SliderStartDestination
+      objectReference: {fileID: 0}
+    - target: {fileID: 396484472720653466, guid: f4ef6cbcf37480c4b9e8b90bccdc0a1c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1483176981852272418, guid: f4ef6cbcf37480c4b9e8b90bccdc0a1c, type: 3}
       propertyPath: m_LocalScale.x
@@ -1695,7 +1714,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &1663938742
 Rigidbody2D:
   serializedVersion: 4
@@ -1850,7 +1869,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slots:
   - {fileID: 81421079}
-  isIn: 0
 --- !u!232 &1663938748
 DistanceJoint2D:
   m_ObjectHideFlags: 0
@@ -1885,7 +1903,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sliderRB: {fileID: 1663938742}
   _handleRB: {fileID: 981129560}
-  _handle: {fileID: 0}
 --- !u!1 &1692243006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1903,7 +1920,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1692243007
 Transform:
   m_ObjectHideFlags: 0

@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 6344896497388852305}
   - component: {fileID: 6347134149967483598}
   - component: {fileID: 6240680516640120001}
+  - component: {fileID: 4896656669622235148}
   m_Layer: 0
   m_Name: Cursor
   m_TagString: Cursor
@@ -320,6 +321,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4896656669622235148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5427864350795869006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82258c800ef026841bc212b4e8589726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 9119718225883712328, guid: 41f80eb7a49cc0d499e9aef6201c9223, type: 3}
+  _canvas: {fileID: 0}
 --- !u!1001 &1598214850764376608
 PrefabInstance:
   m_ObjectHideFlags: 0
