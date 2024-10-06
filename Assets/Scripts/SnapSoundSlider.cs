@@ -6,7 +6,6 @@ public class SnapSoundSlider : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D _sliderRB;
     [SerializeField] private Rigidbody2D _handleRB;
-    [SerializeField] private AudioHandleFollowCursor _handle;
 
     public void OnSliderSet()
     {
@@ -16,6 +15,5 @@ public class SnapSoundSlider : MonoBehaviour
         // _handleRB.bodyType = RigidbodyType2D.Kinematic;
         // _handleRB.simulated = false;
         _handleRB.GetComponent<SliderJoint2D>().enabled = false;
-        _handle.sliderWasSet = true;
     }
 }
