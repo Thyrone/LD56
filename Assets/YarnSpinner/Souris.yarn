@@ -1,15 +1,23 @@
-﻿title: Souris
+﻿title: Start
 tags:
 position: 0,0
 ---
 Dialogue: Yoo moi Dialogue, c'est moi qui parle pour les autres UIs.
-<<jump Next>>
+<<jump Next_00>>
 ===
 
 
-title: Next
+title: Next_00
 tags:
 position: 300,0
 ---
 Lampe: Maintenant c'est moi qui parle haha!
+<<jump Next_01>>
+===
+
+title: Next_01
+tags:
+position: 600,0
+---
+Lampe: Troisième text pour test.
 ===

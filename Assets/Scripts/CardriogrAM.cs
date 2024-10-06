@@ -74,6 +74,5 @@ public class CardriogrAM : MonoBehaviour
             timer += Time.deltaTime;
             yield return new WaitForFixedUpdate();
         }
-
     }
 }
