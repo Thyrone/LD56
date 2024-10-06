@@ -1,22 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+
 
 public class MouseAwake : MonoBehaviour
 {
     [SerializeField] private float _awakeDuration = 5f;
+    [SerializeField] private UnityEvent eventAwake;
     private bool _awake = false;
 
     Vector3 _mousePos, _oldMousePos;
 
     float _movingTime = 0f;
 
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         CheckMoving();
@@ -36,9 +34,9 @@ public class MouseAwake : MonoBehaviour
         if (_movingTime >= _awakeDuration && !_awake)
         {
             _awake = true;
-            Debug.Log("La souris est reveillé");
+            Debug.Log("La souris est reveillÃ©");
+            eventAwake.Invoke();
         }
-
         _oldMousePos = _mousePos;
     }
 }
