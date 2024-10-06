@@ -479,6 +479,17 @@ Transform:
   - {fileID: 1518033819}
   m_Father: {fileID: 1669072124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &228020686 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1663758184025045014, guid: f9feb73cb841381458cc5d505438d140, type: 3}
+  m_PrefabInstance: {fileID: 357953900}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &234535028
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slots:
   - {fileID: 551353195}
+  snapAtSlot: 1
 --- !u!232 &280888316
 DistanceJoint2D:
   m_ObjectHideFlags: 0
@@ -750,7 +762,7 @@ DistanceJoint2D:
   m_Enabled: 1
   serializedVersion: 4
   m_EnableCollision: 1
-  m_ConnectedRigidBody: {fileID: 0}
+  m_ConnectedRigidBody: {fileID: 1082344664}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_BreakAction: 3
@@ -1743,6 +1755,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8037008600490316176, guid: 16b3bc38757ca884399774e7c70d06c3, type: 3}
+      propertyPath: _dialogueSystem
+      value: 
+      objectReference: {fileID: 228020686}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2358,11 +2374,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1792793070}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e03194a172bc9ad47b63979690f87e70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &1082344664 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 6347134149967483598, guid: 8fbef27c11fb6ac46873f01430e47c2a, type: 3}
+  m_PrefabInstance: {fileID: 1792793070}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1238423644
 GameObject:
   m_ObjectHideFlags: 0
@@ -2716,7 +2737,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1669072124}
   - component: {fileID: 1669072123}
-  - component: {fileID: 1669072125}
   m_Layer: 0
   m_Name: pause_menu_empty
   m_TagString: Untagged
@@ -2800,24 +2820,6 @@ Transform:
   - {fileID: 449778084}
   m_Father: {fileID: 1803550143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1669072125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669072122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83a12042eb14e944599d95111ad4c686, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rightDoor: {fileID: 0}
-  _leftDoor: {fileID: 0}
-  _door00: {fileID: 0}
-  _door01: {fileID: 0}
-  _door02: {fileID: 0}
-  _door03: {fileID: 0}
 --- !u!1 &1774908153
 GameObject:
   m_ObjectHideFlags: 0
@@ -2975,6 +2977,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5985259509801793526, guid: 8fbef27c11fb6ac46873f01430e47c2a, type: 3}
+      propertyPath: _dialogueSystem
+      value: 
+      objectReference: {fileID: 228020686}
+    - target: {fileID: 5985259509801793526, guid: 8fbef27c11fb6ac46873f01430e47c2a, type: 3}
       propertyPath: eventAwake.m_PersistentCalls.m_Calls.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -3044,7 +3050,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6304218804991295115, guid: 8fbef27c11fb6ac46873f01430e47c2a, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6344896497388852305, guid: 8fbef27c11fb6ac46873f01430e47c2a, type: 3}
       propertyPath: m_Size.x
@@ -3196,7 +3202,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.08, z: 0}
-  m_LocalScale: {x: 30, y: 30, z: 30}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 542684459}
