@@ -9,6 +9,7 @@ public class DragableElement : MonoBehaviour
     public List<Transform> slots = new List<Transform>();
     bool isIn;
     bool inSlot;
+    public bool snapAtSlot = true;
     Transform cursor;
     Transform overSlot = null;
 
@@ -29,16 +30,16 @@ public class DragableElement : MonoBehaviour
             cursorRb = other.GetComponent<Rigidbody2D>();
             cursor = other.transform;
             isIn = true;
-            // Debug.Log(other.name);
+            Debug.Log(other.name);
         }
         if (other.gameObject.TryGetComponent(out Slot TriggerSlot))
         {
-            // Debug.Log("Slot");
+            Debug.Log("Slot");
             foreach (Transform allowedSlot in slots)
             {
                 if (TriggerSlot.transform == allowedSlot)
                 {
-                    // Debug.Log("Found");
+                    Debug.Log("Found");
                     overSlot = allowedSlot;
                 }
             }
@@ -49,7 +50,7 @@ public class DragableElement : MonoBehaviour
         if (other.CompareTag("Cursor"))
         {
             isIn = false;
-            // Debug.Log(other.name);
+            Debug.Log(other.name);
         }
 
         if (other.gameObject.TryGetComponent(out Slot TriggerSlot))
@@ -73,29 +74,34 @@ public class DragableElement : MonoBehaviour
                 rb.isKinematic = false;
                 rb.freezeRotation = false;
                 inSlot = false;
+
             }
-            // Debug.Log("down");
-            distancejoint.connectedBody = cursorRb;
+            Debug.Log("down");
+            distancejoint.connectedAnchor = cursor.position;
+            // distancejoint.connectedBody = cursorRb;
             distancejoint.enabled = true;
+
         }
         if (Input.GetMouseButtonUp(0))
         {
             if (overSlot != null)
             {
-                distancejoint.connectedBody = null;
+                // distancejoint.connectedBody = null;
                 distancejoint.enabled = false;
+                distancejoint.connectedAnchor = cursor.position;
                 rb.isKinematic = true;
                 rb.velocity = Vector2.zero;
                 rb.freezeRotation = true;
-                transform.position = overSlot.position;
+                if (snapAtSlot)
+                    transform.position = overSlot.position;
                 inSlot = true;
                 overSlot.GetComponent<Slot>().OnSlotEvent.Invoke();
             }
             else
             {
-                distancejoint.connectedBody = null;
+                //distancejoint.connectedBody = null;
                 distancejoint.enabled = false;
-                // Debug.Log("up");
+                Debug.Log("up");
             }
 
 

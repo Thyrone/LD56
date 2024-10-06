@@ -14,6 +14,6 @@ public class SnapSoundSlider : MonoBehaviour
 
         // _handleRB.bodyType = RigidbodyType2D.Kinematic;
         // _handleRB.simulated = false;
-        _handleRB.GetComponent<SliderJoint2D>().enabled = false;
+        //_handleRB.GetComponent<SliderJoint2D>().enabled = false;
     }
 }
