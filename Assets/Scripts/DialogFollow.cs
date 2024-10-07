@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn;
+using Yarn.Unity;
 
 public class DialogFollow : MonoBehaviour
 {
@@ -8,6 +10,8 @@ public class DialogFollow : MonoBehaviour
 
     [SerializeField] private RectTransform _canvas;
     [SerializeField] private Camera _cam;
+    [SerializeField] private DialogueRunner _dialogRunner;
+    [SerializeField] private float _ui_offset = 0f;
 
     private RectTransform _rect;
 
@@ -27,7 +31,7 @@ public class DialogFollow : MonoBehaviour
 
         Vector2 ViewportPosition = _cam.WorldToViewportPoint(_target.transform.position);
 
-        float offset = _rect.sizeDelta.x * 0.5f;
+        float offset = _rect.sizeDelta.x * 0.5f + _ui_offset;
         offset = ViewportPosition.x <= 0.5f ? offset : -offset;
         Vector2 WorldObject_ScreenPosition = new Vector2(
         ((ViewportPosition.x * _canvas.sizeDelta.x) - (_canvas.sizeDelta.x * 0.5f) + offset),
@@ -41,5 +45,11 @@ public class DialogFollow : MonoBehaviour
     {
         if (_instance)
             _instance._target = target;
+    }
+
+    public static void CloseDialogue()
+    {
+        if (_instance)
+            _instance._dialogRunner.Stop();
     }
 }

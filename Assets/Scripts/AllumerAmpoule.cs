@@ -26,8 +26,9 @@ public class AllumerAmpoule : MonoBehaviour
 
     public void StartDialogueAmpoule()
     {
-    _dialogueSystem.StartDialogue("Ampoule_001");
+        DialogFollow.CloseDialogue();
         DialogFollow.SetTarget(gameObject);
+        _dialogueSystem.StartDialogue("Ampoule_001");
         dejaParle = true;
     }
 

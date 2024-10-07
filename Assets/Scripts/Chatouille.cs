@@ -24,7 +24,7 @@ public class Chatouille : MonoBehaviour
             valueScroll += 1f;
             foreach (ChatouilleCoef coef in ChatouilleCoefs)
             {
-                Debug.Log("coef=" + coef.value + " / ValueScroll=" + valueScroll);
+                // Debug.Log("coef=" + coef.value + " / ValueScroll=" + valueScroll);
                 if (coef.value == valueScroll)
                 {
                     coef.ChatouilleEvent.Invoke();
