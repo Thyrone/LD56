@@ -8,7 +8,7 @@ public class Heart : MonoBehaviour
     [SerializeField] private Material _idle;
     [SerializeField] private HeartType _type;
 
-    private MeshRenderer _renderer;
+    private SpriteRenderer _renderer;
 
     public enum HeartType
     {
@@ -19,7 +19,7 @@ public class Heart : MonoBehaviour
 
     private void Start()
     {
-        _renderer = GetComponent<MeshRenderer>();
+        _renderer = GetComponent<SpriteRenderer>();
     }
 
     public void Cry()

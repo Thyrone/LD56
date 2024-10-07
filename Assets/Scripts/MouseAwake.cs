@@ -38,22 +38,22 @@ public class MouseAwake : MonoBehaviour
         {
             _awake = true;
             Debug.Log("La souris est reveillé");
-            DialogueMouse();
+            //DialogueMouse();
             eventAwake.Invoke();
         }
 
         _oldMousePos = _mousePos;
     }
 
-    private void DialogueMouse()
+    public void DialogueMouse()
     {
-            _dialogueSystem.StartDialogue("Souris_001");
-            DialogFollow.SetTarget(gameObject);
+        _dialogueSystem.StartDialogue("Souris_001");
+        DialogFollow.SetTarget(gameObject);
     }
 
-    private void InteractionAmpoule() 
+    private void InteractionAmpoule()
     {
         _dialogueSystem.StartDialogue("Souris_002");
-            DialogFollow.SetTarget(gameObject);
+        DialogFollow.SetTarget(gameObject);
     }
 }

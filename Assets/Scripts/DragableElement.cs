@@ -10,6 +10,7 @@ public class DragableElement : MonoBehaviour
     bool isIn;
     bool inSlot;
     public bool snapAtSlot = true;
+    public bool snapToParent = true;
     Transform cursor;
     Transform overSlot = null;
 
@@ -96,6 +97,8 @@ public class DragableElement : MonoBehaviour
                     transform.position = overSlot.position;
                 inSlot = true;
                 overSlot.GetComponent<Slot>().OnSlotEvent.Invoke();
+                if (snapToParent)
+                    transform.parent = overSlot;
             }
             else
             {

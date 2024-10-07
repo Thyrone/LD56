@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CardriogrAM : MonoBehaviour
 {
@@ -15,12 +16,12 @@ public class CardriogrAM : MonoBehaviour
     [SerializeField] private Color _errorColor;
     [SerializeField] private Color _successColor;
 
+    [SerializeField] private UnityEvent _failAction;
+    [SerializeField] private UnityEvent _successAction;
+    [SerializeField] private UnityEvent _finishAction;
+
     private float _timer = 0f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -34,11 +35,13 @@ public class CardriogrAM : MonoBehaviour
             {
                 _currentSuccess++;
                 StartCoroutine(ChangeColor(_successColor));
-                Debug.Log("Succès " + _currentSuccess + " / " + _nbSuccess);
+                _successAction.Invoke();
+                Debug.Log("Succï¿½s " + _currentSuccess + " / " + _nbSuccess);
             }
             else
             {
                 _currentSuccess = 0;
+                _failAction.Invoke();
                 StartCoroutine(ChangeColor(_errorColor));
                 Debug.Log("Fail -> Reset 0 / 0");
             }
@@ -50,6 +53,11 @@ public class CardriogrAM : MonoBehaviour
         {
             _timer = 0f;
             _playerTried = false;
+        }
+
+        if (_currentSuccess >= 3)
+        {
+            _finishAction.Invoke();
         }
     }
 

@@ -12,7 +12,7 @@ public class ContinueDialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetMouseButtonDown(0) && _dialogueSystem.IsDialogueRunning)
         {
             _dialogueSystem.Dialogue.Continue();
         }

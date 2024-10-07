@@ -319,6 +319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slots:
   - {fileID: 1163092819}
+  snapAtSlot: 1
 --- !u!61 &325738507
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -458,6 +459,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &458042435
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 992307943190371841, guid: de6da0ccb63421c42a3997ad5262b5de, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2600929
+      objectReference: {fileID: 0}
+    - target: {fileID: 992307943190371841, guid: de6da0ccb63421c42a3997ad5262b5de, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.606895
+      objectReference: {fileID: 0}
+    - target: {fileID: 992307943190371841, guid: de6da0ccb63421c42a3997ad5262b5de, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.049875434
+      objectReference: {fileID: 0}
+    - target: {fileID: 992307943190371841, guid: de6da0ccb63421c42a3997ad5262b5de, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 992307943190371841, guid: de6da0ccb63421c42a3997ad5262b5de, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992307943190371841, guid: de6da0ccb63421c42a3997ad5262b5de, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992307943190371841, guid: de6da0ccb63421c42a3997ad5262b5de, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992307943190371841, guid: de6da0ccb63421c42a3997ad5262b5de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992307943190371841, guid: de6da0ccb63421c42a3997ad5262b5de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992307943190371841, guid: de6da0ccb63421c42a3997ad5262b5de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1392677122396164604, guid: de6da0ccb63421c42a3997ad5262b5de, type: 3}
+      propertyPath: m_Name
+      value: SoundSliderPrefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: de6da0ccb63421c42a3997ad5262b5de, type: 3}
 --- !u!1 &664272816
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,6 +551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slots:
   - {fileID: 1163092819}
+  snapAtSlot: 1
 --- !u!61 &664272818
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1298,3 +1357,4 @@ SceneRoots:
   - {fileID: 5070477575880384373}
   - {fileID: 325738510}
   - {fileID: 944622895}
+  - {fileID: 458042435}
