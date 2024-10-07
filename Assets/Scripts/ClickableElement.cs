@@ -22,7 +22,7 @@ public class ClickableElement : MonoBehaviour
         if (other.CompareTag("Cursor"))
         {
             isIn = true;
-            Debug.Log(other.name);
+            // Debug.Log(other.name);
         }
     }
     private void OnTriggerExit2D(Collider2D other)
@@ -30,7 +30,7 @@ public class ClickableElement : MonoBehaviour
         if (other.CompareTag("Cursor"))
         {
             isIn = false;
-            Debug.Log(other.name);
+            // Debug.Log(other.name);
         }
     }
 }

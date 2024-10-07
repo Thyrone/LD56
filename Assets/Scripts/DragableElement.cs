@@ -31,16 +31,16 @@ public class DragableElement : MonoBehaviour
             cursorRb = other.GetComponent<Rigidbody2D>();
             cursor = other.transform;
             isIn = true;
-            Debug.Log(other.name);
+            // Debug.Log(other.name);
         }
         if (other.gameObject.TryGetComponent(out Slot TriggerSlot))
         {
-            Debug.Log("Slot");
+            // Debug.Log("Slot");
             foreach (Transform allowedSlot in slots)
             {
                 if (TriggerSlot.transform == allowedSlot)
                 {
-                    Debug.Log("Found");
+                    // Debug.Log("Found");
                     overSlot = allowedSlot;
                 }
             }
@@ -51,7 +51,7 @@ public class DragableElement : MonoBehaviour
         if (other.CompareTag("Cursor"))
         {
             isIn = false;
-            Debug.Log(other.name);
+            // Debug.Log(other.name);
         }
 
         if (other.gameObject.TryGetComponent(out Slot TriggerSlot))
@@ -77,7 +77,7 @@ public class DragableElement : MonoBehaviour
                 inSlot = false;
 
             }
-            Debug.Log("down");
+            // Debug.Log("down");
             distancejoint.connectedAnchor = cursor.position;
             // distancejoint.connectedBody = cursorRb;
             distancejoint.enabled = true;
@@ -104,7 +104,7 @@ public class DragableElement : MonoBehaviour
             {
                 //distancejoint.connectedBody = null;
                 distancejoint.enabled = false;
-                Debug.Log("up");
+                // Debug.Log("up");
             }
 
 

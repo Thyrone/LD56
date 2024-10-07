@@ -17,14 +17,14 @@ public class VolumeToPoint : MonoBehaviour
     {
         sliderJoint2D = GetComponent<SliderJoint2D>();
         maxSlider = sliderJoint2D.limits.max;
-        Debug.Log("maxSlider=" + maxSlider);
+        // Debug.Log("maxSlider=" + maxSlider);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(sliderJoint2D.jointTranslation);
-        Debug.Log(sliderJoint2D.jointTranslation);
+        // Debug.Log(sliderJoint2D.jointTranslation);
+        // Debug.Log(sliderJoint2D.jointTranslation);
 
         audioSource.volume = (1 - (sliderJoint2D.jointTranslation / maxSlider)) * maxVolume;
         if (audioSource.volume > maxVolume - 0.03f && startCondition)
