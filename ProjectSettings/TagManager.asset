@@ -45,3 +45,6 @@ TagManager:
   - name: PauseMenu
     uniqueID: 4217393771
     locked: 0
+  - name: LoadingBar
+    uniqueID: 2137836549
+    locked: 0

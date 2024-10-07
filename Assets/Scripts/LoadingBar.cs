@@ -43,7 +43,7 @@ public class LoadingBar : MonoBehaviour
         _timer = 0f;
         if (!_isYeaying)
         {
-            _animator.SetTrigger("smileBlink");
+            _animator.SetTrigger("blink");
         }
     }
 
