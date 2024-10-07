@@ -51,3 +51,6 @@ TagManager:
   - name: LoadingBar
     uniqueID: 2137836549
     locked: 0
+  - name: Cursor
+    uniqueID: 3772018713
+    locked: 0

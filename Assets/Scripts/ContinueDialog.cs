@@ -14,7 +14,11 @@ public class ContinueDialog : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && _dialogueSystem.IsDialogueRunning)
         {
-            _dialogueSystem.Dialogue.Continue();
+            NextDialog();
         }
+    }
+
+    public void NextDialog(){
+    _dialogueSystem.Dialogue.Continue();
     }
 }
