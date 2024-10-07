@@ -13,7 +13,7 @@ public class DialogueTimed : MonoBehaviour
 
     private void Start()
     {
-        dialogueRunner = GetComponent<DialogueRunner>();
+        dialogueRunner = FindFirstObjectByType<DialogueRunner>();
         StartCoroutine(delayDialog());
     }
     IEnumerator delayDialog()

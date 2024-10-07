@@ -19,7 +19,7 @@ public class Chatouille : MonoBehaviour
 
     public void Chatouiller()
     {
-        if (Input.mouseScrollDelta.y > 1 || Input.mouseScrollDelta.y < -1 && isIn)
+        if (Input.mouseScrollDelta.y > 0.1 || Input.mouseScrollDelta.y < -0.1 && isIn)
         {
             valueScroll += 1f;
             foreach (ChatouilleCoef coef in ChatouilleCoefs)

@@ -1203,6 +1203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slots: []
   snapAtSlot: 1
+  snapToParent: 1
 --- !u!232 &670533866
 DistanceJoint2D:
   m_ObjectHideFlags: 0
@@ -1824,6 +1825,18 @@ MonoBehaviour:
           m_StringArgument: G3
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 592819940}
+        m_TargetAssemblyTypeName: Yarn.Unity.DialogueRunner, YarnSpinner.Unity
+        m_MethodName: StartDialogue
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: TItre_002
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!50 &855810057
 Rigidbody2D:
   serializedVersion: 4
@@ -2073,6 +2086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slots: []
   snapAtSlot: 1
+  snapToParent: 1
 --- !u!232 &1275957239
 DistanceJoint2D:
   m_ObjectHideFlags: 0
@@ -2494,6 +2508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slots: []
   snapAtSlot: 1
+  snapToParent: 1
 --- !u!232 &1505092081
 DistanceJoint2D:
   m_ObjectHideFlags: 0
@@ -2824,6 +2839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slots: []
   snapAtSlot: 1
+  snapToParent: 1
 --- !u!232 &1549221522
 DistanceJoint2D:
   m_ObjectHideFlags: 0
