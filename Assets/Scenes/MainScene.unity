@@ -15137,6 +15137,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4024112289816590534}
   m_CullTransparentMesh: 1
+--- !u!114 &4335278245782339589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7809121858302371278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 977d1846226552345af7e02a43124066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnSlotEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5057933194045938905}
+        m_TargetAssemblyTypeName: SnapSoundSlider, Assembly-CSharp
+        m_MethodName: OnSliderSet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 708120230}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Wake
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1663758183700875642}
+        m_TargetAssemblyTypeName: Yarn.Unity.DialogueRunner, YarnSpinner.Unity
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Inventaire_001
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1782823235177739457}
+        m_TargetAssemblyTypeName: DialogFollow, Assembly-CSharp
+        m_MethodName: SetTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1399673808}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Inventaire_001
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1663758183700875642}
+        m_TargetAssemblyTypeName: Yarn.Unity.DialogueRunner, YarnSpinner.Unity
+        m_MethodName: StartDialogue
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Inventaire_001
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4346959694127842785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15739,6 +15814,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9028107469321547382}
   - component: {fileID: 4525514767574725318}
+  - component: {fileID: 4335278245782339589}
   - component: {fileID: 1330436945475448928}
   - component: {fileID: 1711186996160047211}
   m_Layer: 0
