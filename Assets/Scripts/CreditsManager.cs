@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -46,7 +45,7 @@ public class CreditsManager : MonoBehaviour
         while (timer <= duration)
         {
             float t = timer / duration;
-            _theEnd.color = new Color(1f, 1f, 1f, 1f -t);
+            _theEnd.color = new Color(1f, 1f, 1f, 1f - t);
             timer += Time.deltaTime;
             yield return new WaitForFixedUpdate();
         }
@@ -72,7 +71,7 @@ public class CreditsManager : MonoBehaviour
             timer += Time.deltaTime;
             float t = timer / duration;
             _thanks.color = new Color(1f, 1f, 1f, 1f - t);
-            
+
             yield return new WaitForFixedUpdate();
         }
         _thanks.color = new Color(1f, 1f, 1f, 0f);
