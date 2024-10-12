@@ -5745,6 +5745,11 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: e05a9693db1d1f2419b9bf3f7ac5bb72, type: 2}
+--- !u!1 &832176330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4172186231559678095, guid: 775e3b3e15d27874896e461519cceac9, type: 3}
+  m_PrefabInstance: {fileID: 180574298}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &839967349
 GameObject:
   m_ObjectHideFlags: 0
@@ -7675,7 +7680,7 @@ PrefabInstance:
     - target: {fileID: 2929194868879237600, guid: 979fabc8aa89154429472ae97cdbb169, type: 3}
       propertyPath: EventOnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1091965814}
+      objectReference: {fileID: 832176330}
     - target: {fileID: 2929194868879237600, guid: 979fabc8aa89154429472ae97cdbb169, type: 3}
       propertyPath: EventOnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
