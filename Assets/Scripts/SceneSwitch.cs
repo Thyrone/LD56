@@ -17,7 +17,12 @@ public class SceneSwitch : MonoBehaviour
 
     public void LoadCustomScene()
     {
-        asyncLoad.allowSceneActivation = true;
+        StartCoroutine(delay());
+    }
+
+    IEnumerator delay()
+    {
+        yield return new WaitForSeconds(2f); asyncLoad.allowSceneActivation = true;
     }
 
 }

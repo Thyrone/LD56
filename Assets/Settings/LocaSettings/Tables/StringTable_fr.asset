@@ -17,7 +17,249 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: e1fbfb661ac5091498b60dbd374b0027, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 2619881949888512
+    m_Localized: 'Ampoule : Ah !'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882012803072
+    m_Localized: "Ampoule : Et la lumi\xE8re fut !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882012803073
+    m_Localized: "Ampoule :  Il dort profond\xE9ment\u2026 Et si on chatouillait
+      ce paresseux ? Un petit scroll devrait faire l'affaire."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882012803074
+    m_Localized: "Ampoule: Si je peux t\u2019offrir mes lumi\xE8res, il y a des objets
+      \xE0 empiler, non ?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997376
+    m_Localized: 'Ampoule : Ah ! Ce sera parfait pour remettre un peu d''ambiance
+      ici.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997377
+    m_Localized: "Ampoule: Soul\xE8ve moi donc ce machin !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997378
+    m_Localized: 'Ampoule : Ah.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997379
+    m_Localized: 'Ampoule : Je sais exactement ce qu''il lui faut.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997380
+    m_Localized: "Ampoule : Ouille.. Il m'a l'air mal en point celui-l\xE0.."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997381
+    m_Localized: "Ampoule : Vite ! Place tes mains sur la barre espace pour r\xE9aliser
+      un massage cardiaque \xE0 intervalles r\xE9guli\xE8res !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997382
+    m_Localized: "Ampoule : Oh, un illumin\xE9.."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997383
+    m_Localized: 'Ampoule : Tu devrais faire un peu de rangement de l''inventaire
+      vers le menu si tu veux mon avis..'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997384
+    m_Localized: 'Ampoule : OUVRE L''INVENTAIRE !'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997385
+    m_Localized: "Ampoule : \u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997386
+    m_Localized: 'Ampoule : RANGE-LE DANS LES PARAMETRES'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997387
+    m_Localized: 'Ampoule : LA RESOLUTION !!!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997388
+    m_Localized: "Ampoule : Tu devrais\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997389
+    m_Localized: 'Ampoule : ... Le mettre dans le menu pause !'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997390
+    m_Localized: 'Ampoule : Je pense que celui-ci a besoin d''un bon coup de main..'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997391
+    m_Localized: "Ampoule : Met lui ce qu'il m\xE9rite avec la barre espace!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997392
+    m_Localized: 'Barre : Ouille !'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997393
+    m_Localized: "Barre : Hum.. Hey c\u2019est plut\xF4t bon en fait.."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997394
+    m_Localized: 'Barre : Han, encore ! Encore !'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997395
+    m_Localized: Haaaaaan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997396
+    m_Localized: "Inventaire :  Mmmh\u2026Eh..mais, mais \xE7a groove ici en fait
+      !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997397
+    m_Localized: 'Inventaire : *hum ts hum hum ts*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997398
+    m_Localized: 'Inventaire : ooooh ooh OOOH'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997399
+    m_Localized: "Inventaire : J\u2019crois que je me sens pas bien\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997400
+    m_Localized: 'Inventaire : BEUARGH'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997401
+    m_Localized: "Menu : Eho ? Quelqu\u2019un m\u2019entend ? Il fait tout noir\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997402
+    m_Localized: "Menu : Vous m\u2019avez trouv\xE9 ! whouuu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997403
+    m_Localized: "Pause : eeeeh..\xE7a chatouille mec\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997404
+    m_Localized: "Hum ? C\u2019est d\xE9j\xE0 l\u2019heure ? Oh..salut souris, \xE7a
+      farte ?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997405
+    m_Localized: "Pause : Allez hop, apr\xE8s l\u2019effort, le r\xE9confort man\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997406
+    m_Localized: "Pause : Tu me sollicite encore man..? Pas d\u2019probl\xE8mes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997407
+    m_Localized: 'Pause : Content de te revoir...man'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997408
+    m_Localized: "Souris: MAIS C\u2019EST PAS BIENT\xD4T FINI DE ME SECOUER ?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997409
+    m_Localized: "Souris : PAR PITI\xC9 MET LA EN VEILLEUSE !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997410
+    m_Localized: "Souris : Satan\xE9 hippie, au travail !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997411
+    m_Localized: "Souris : V\u2019l\xE0 les trois bonnes t\xEAtes de vainqueurs.."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997412
+    m_Localized: "Souris : Mais ou est-ce qu\u2019il est all\xE9 se mettre lui encore
+      ?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997413
+    m_Localized: "Souris : Ouais bon, allez, on va gagner du temps. Bouge pas de
+      l\xE0 toi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997414
+    m_Localized: "Titre : Aide moi mon pote je t\u2019en supplie, j\u2019aspire \xE0
+      de grandes choses moi !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997415
+    m_Localized: "Titre : Eh oh tu me pompe l\u2019air l\xE0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997416
+    m_Localized: "Titre : Ahhh, ooooooh eh non eh arr\xEAte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997417
+    m_Localized: "Titre : Oh. Oh ! Eh \xE7a p\xE8te en fait !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997418
+    m_Localized: "Peur : Non mais \xE7a va pas non ? Tu veux que je fasse un arr\xEAt
+      cardiaque ?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997419
+    m_Localized: "Non, non, non, non, \xE0 ce rythme l\xE0 c\u2019est le d\xE9c\xE8s
+      assur\xE9\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997420
+    m_Localized: "Oh seigneur, je suis en hypertension art\xE9rielle c\u2019est s\xFBr..
+      Je fr\xF4le l\u2019AVC c\u2019est certain, on va tous y passer !!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997421
+    m_Localized: "CA VA M\u2019ETRE L\xC9TAL"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997422
+    m_Localized: "Joie : NON ! Fr\xE8re !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997423
+    m_Localized: "Joie : C\u2019est si bon d\u2019\xEAtre vivante ! Quelle belle
+      journ\xE9e !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997424
+    m_Localized: "Je croque la vie \xE0 pleine dents"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997425
+    m_Localized: "Joie : Ne prends pas tout \xE0 coeur mon fr\xE8re !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997426
+    m_Localized: "Fou du bus :  NOOOON, MOI QUI PENSAIT QUE C'\xC9TAIT FINI..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997427
+    m_Localized: JE RETROUVE CES DEUX BRANQUIGNOLS !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997428
+    m_Localized: "OUIII ENFIN LA LIB\xC9RATION, VIENS \xC0 MOI REPOS \xC9TERNEL"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

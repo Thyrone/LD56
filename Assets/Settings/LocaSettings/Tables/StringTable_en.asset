@@ -17,7 +17,91 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: e1fbfb661ac5091498b60dbd374b0027, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 2619881949888512
+    m_Localized: 'Lightbulb : Ah !'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882012803072
+    m_Localized: 'Lightbulb : And there was Light.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882012803073
+    m_Localized: 'Lightbulb : He''s fast asleep... How about tickling that sloth?
+      A little scroll should do the trick.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882012803074
+    m_Localized: 'Lightbulb : If I can offer you my lights, there are things to stack,
+      aren''t there?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997376
+    m_Localized: 'Lightbulb : Ah! That''ll be perfect to bring some life back around
+      here,'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997377
+    m_Localized: 'Lightbulb : Go ahead and lift that thing for me'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997378
+    m_Localized: 'Lightbulb : Ah.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997379
+    m_Localized: 'Lightbulb : I know exactly what he needs.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997380
+    m_Localized: 'Lightbulb : Ouch... He looks like he''s in bad shape, that one.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997381
+    m_Localized: 'Lightbulb : Quick! Place your hands on the spacebar to perform
+      chest compressions at regular intervals!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997382
+    m_Localized: 'Lightbulb : Ah.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997383
+    m_Localized: 'Lightbulb : Ah.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997384
+    m_Localized: 'Lightbulb : Ah.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997385
+    m_Localized: 'Lightbulb : Ah.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997386
+    m_Localized: 'Lightbulb : Ah.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997387
+    m_Localized: 'Lightbulb : Ah.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997388
+    m_Localized: 'Lightbulb : Ah.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997389
+    m_Localized: 'Lightbulb : Ah.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997390
+    m_Localized: 'Lightbulb : Ah.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2619882016997391
+    m_Localized: 'Lightbulb : Ah.'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
